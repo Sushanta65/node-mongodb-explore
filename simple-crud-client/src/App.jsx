@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import './App.css'
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <input type="email" name='email' placeholder='Email' required/><br />
           <input type="submit" value='Submit' />
         </form>
+        <Link to="/users">See Users</Link>
       </div>
     </>
   )
